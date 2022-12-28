@@ -49,6 +49,7 @@ class ReadTheDocsChecker:
     def __init__(self, repo_path=None, git_origin_url=None, token=None):
         self._yml_file_name = ".readthedocs.yml"
         self.repo_path = repo_path
+        
         self.git_origin_url = git_origin_url
 
         self._token = token
