@@ -1,0 +1,12 @@
+name: checking
+on:
+  check_suite:
+    types:
+      - completed
+
+jobs:
+  checking:
+    runs-on: ubuntu-latest
+    steps:
+    - name: output name
+      run: echo "Hi there!"
