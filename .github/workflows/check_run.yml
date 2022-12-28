@@ -1,0 +1,12 @@
+name: check_run
+
+on:
+  check_run:
+    types: [completed]
+  
+jobs:
+  checking:
+    runs-on: ubuntu-latest
+    steps:
+    - name: output name
+      run: echo "Hi there!"
