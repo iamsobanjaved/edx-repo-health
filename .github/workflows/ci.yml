@@ -37,9 +37,3 @@ jobs:
         GITHUB_TOKEN: 'token'
       run: tox
 
-    - name: Run Coverage
-      if: matrix.python-version == '3.8' && matrix.toxenv=='python'
-      uses: codecov/codecov-action@v1
-      with:
-        flags: unittests
-        fail_ci_if_error: true
