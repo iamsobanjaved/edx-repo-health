@@ -7,4 +7,6 @@ on:
 
 jobs:
   commitlint:
-    uses: openedx/.github/.github/workflows/commitlint.yml@master
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "he"
