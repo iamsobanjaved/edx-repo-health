@@ -2,7 +2,7 @@
 edx-repo-health
 ===============
 
-edx-repo-health is a set of checks of the health of repositories.  They are written similar to pytest tests, and run in pytest using a customized pytest plugin (`pytest-repo-health`_).
+ (test) edx-repo-health is a set of checks of the health of repositories.  They are written similar to pytest tests, and run in pytest using a customized pytest plugin (`pytest-repo-health`_).
 
 - Each check gathers information about a given repository.
 - Each check is meant to be minimal and only check for simple specific things. This is to make it easier to debug changes.
